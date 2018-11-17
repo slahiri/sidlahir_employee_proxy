@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="6" name="sidlahir_employee_proxy">
+    <Basepaths>/v1/sidlahir_employee_proxy</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1542433294588</CreatedAt>
+    <CreatedBy>sidlahir@publicisgroupe.net</CreatedBy>
+    <Description></Description>
+    <DisplayName>sidlahir_employee_proxy</DisplayName>
+    <LastModifiedAt>1542433294588</LastModifiedAt>
+    <LastModifiedBy>sidlahir@publicisgroupe.net</LastModifiedBy>
+    <ManifestVersion>SHA-512:f54ee357f7a3e286917310e150dc42e9f5b143c1577b03c482d829f19e0d3accb3a94c0979f823e003b8eb34e564aa3ee6697953f55d53db41f686ad1d1c58fc</ManifestVersion>
+    <Policies>
+        <Policy>Add-CORS</Policy>
+        <Policy>Quota</Policy>
+        <Policy>Spike-Arrest</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
