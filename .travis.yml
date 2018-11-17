@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "0.10"
+before_install: 
+  npm install -g apigeetool
+install:
+  apigeetool deployproxy -u sidlahir@publicisgroupe.net -p $APIGEE_ACCESS -o sidlahir-eval -e test -n "sidlahir_employee_proxy" -d .
